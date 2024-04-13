@@ -1,0 +1,2 @@
+dataset,method,mPSNR,mSSIM,LPIPs
+apple/base-apple-interp,diff False  smoothing 0.0 interp False kernel linear  wreg False,21.708722311881235,"tensor(0.8959, device='cpu', dtype=torch.float64)",0.2960737767608318
