@@ -8,6 +8,7 @@ This is the official code for the paper [Improving the Convergence of Dynamic Ne
 
 ![block](./imgs/rgb_comparison.gif)  
 ![block](./imgs/depth_comparison.gif)
+
 A comparison between with our regularization (left) and without our regularization (right). We constrain the optimal transport distance between rendered pixel distributions for better onvergence of dynamic NeRFs. 
 
 ![block](./imgs/method.png)
