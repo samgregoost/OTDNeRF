@@ -7,6 +7,8 @@ def tmux(command):
     system(f'tmux ' + command)
 
 
+
+
 def tmux_shell(command, session):
 
 
@@ -24,6 +26,14 @@ dataset_list = ['aleks-teapot', 'torchocolate', 'hand', 'lemon', 'chickchicken']
 import waitGPU
 
 for j in range(1):
+  #  print(f'Waiting to train {dataset_list[i]} and {dataset_list[i+1]}')
+   # waitGPU.wait(utilization=10, memory_ratio=0.2, available_memory=300,
+    #             gpu_ids=[0, 1, 2, 3, 4, 5, 6, 7], interval=10 * 60, nproc=1, ngpu=8)
+
+
+    # dataset1 = dataset_list[i]
+    # dataset2 = dataset_list[i+1]
+    # dataset2 = dataset_list[i + 1]
 
     experiments = [
         f'{dataset_list[0]}/base-{dataset_list[0]}-interp',
